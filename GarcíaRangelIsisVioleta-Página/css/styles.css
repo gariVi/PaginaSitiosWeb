@@ -9960,7 +9960,7 @@ h3 {
   }
 }
 .page-section {
-  padding: 6rem 0;
+  padding: 7rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10231,4 +10231,106 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #D970EA;
+}
+
+div#circulo {
+    position: absolute;
+    content: "";
+    left: -40px;
+    right: 20px;
+    top: 0px;
+    width: 300px;
+    height: 290px;
+    opacity:0.7;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #D911FA;
+    border: 3px solid #D911FA;
+}
+
+.imgRedonda {
+  position: absolute;
+  z-index: 2;
+  content: "";
+  left: -10px;
+  right: 30px;
+  top: 15px;
+  width:270px;
+  height:260px;
+  opacity:0.6;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius:50%;
+  border: 3px
+}
+
+.triangulo_der {
+  position: absolute;
+  z-index: 3;
+  width: 0px;
+  height: 0px;
+  opacity:0.9;
+  top: 135px;
+  right: 140px;
+  border-top: 17.5px solid transparent;
+  border-left: 35px solid #D911FA;
+  border-bottom: 17.5px solid transparent;
+}
+
+div#circulo1 {
+  position: absolute;
+  content: "";
+  right: -40px;
+  top: 0px;
+  width: 300px;
+  height: 290px;
+  opacity:0.7;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #D911FA;
+  border: 3px solid #D911FA;
+}
+
+.imgRedonda1 {
+  position: absolute;
+  z-index: 2;
+  content: "";
+  right: -40px;
+  top: 15px;
+  width:270px;
+  height:260px;
+  opacity:0.6;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius:50%;
+  border: 3px
+}
+
+.triangulo_der1 {
+  position: absolute;
+  z-index: 3;
+  width: 0px;
+  height: 0px;
+  opacity:0.9;
+  top: 135px;
+  right: -40px;
+  border-top: 17.5px solid transparent;
+  border-left: 35px solid #D911FA;
+  border-bottom: 17.5px solid transparent;
+}
+
+.elegante{
+  font-family: "Galada", "Segoe UI";
+}
+
+.normal {
+  font-family: 'Segoe UI';
+  color: #D72EF2
+}
+
+.normal1 {
+  font-family: 'Segoe UI';
+  color: #000
 }
